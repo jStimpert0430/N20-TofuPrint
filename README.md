@@ -6,6 +6,8 @@ A Linux and Windows desktop editor that prints directly over USB. No manufacture
 
 [Download](https://github.com/jStimpert0430/N20-TofuPrint/releases) · [Setup & building](docs/SETUP.md) · [GPL v3 or later](LICENSE)
 
+![N20 TofuPrint showing text controls and a bordered label preview](docs/screenshot.png)
+
 ## Features
 
 | | |
