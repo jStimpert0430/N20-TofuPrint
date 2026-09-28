@@ -1,0 +1,2 @@
+# USB access for the active local desktop user; N20 only.
+SUBSYSTEM=="usb", ATTR{idVendor}=="0483", ATTR{idProduct}=="5602", TAG+="uaccess"

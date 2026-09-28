@@ -1,0 +1,7 @@
+FROM python:3.13-bookworm@sha256:227b6570d6ee07061ae6ca2eb04dedfb6d2b34045835f343065b9869e4d427ea
+RUN apt-get update && apt-get install -y --no-install-recommends libgl1 libegl1 libx11-6 libxrandr2 libxinerama1 libxcursor1 libxi6 && rm -rf /var/lib/apt/lists/*
+WORKDIR /app
+COPY requirements.txt requirements-build.txt ./
+RUN pip install --no-cache-dir -r requirements.txt -r requirements-build.txt
+COPY . .
+RUN python -m unittest discover -q && python scripts/build.py

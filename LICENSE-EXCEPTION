@@ -1,0 +1,15 @@
+N20 TofuPrint: additional permission under GNU GPL version 3 section 7
+
+As an additional permission, the copyright holders of N20 TofuPrint permit you
+to combine or link this program with Dear ImGui Bundle, including the Dear ImGui
+Test Engine component distributed with it, and to convey the resulting work.
+This permission applies to Dear ImGui Bundle 1.92.900 and modified versions
+distributed under the same upstream component licenses.
+
+You must comply with the GNU General Public License for N20 TofuPrint and with
+the applicable upstream licenses for those components. This additional permission
+does not change, replace, or grant rights under any third-party license.
+
+If you modify this program, you may extend this additional permission to your
+version, but you are not obligated to do so. You may remove this permission from
+your version as permitted by GNU GPL version 3 section 7.
